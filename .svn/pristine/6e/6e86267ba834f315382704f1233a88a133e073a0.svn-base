@@ -1,0 +1,38 @@
+// Generated code from Butter Knife. Do not modify!
+package com.cloversoft.ks.android.adapter;
+
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import butterknife.Unbinder;
+import butterknife.internal.Utils;
+import com.cloversoft.ks.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class DrawerAdapter$ViewHolder_ViewBinding implements Unbinder {
+  private DrawerAdapter.ViewHolder target;
+
+  @UiThread
+  public DrawerAdapter$ViewHolder_ViewBinding(DrawerAdapter.ViewHolder target, View source) {
+    this.target = target;
+
+    target.drawerTXT = Utils.findRequiredViewAsType(source, R.id.drawerTXT, "field 'drawerTXT'", TextView.class);
+    target.navIconIV = Utils.findRequiredViewAsType(source, R.id.navIconIV, "field 'navIconIV'", ImageView.class);
+    target.adapterCON = Utils.findRequiredView(source, R.id.adapterCON, "field 'adapterCON'");
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    DrawerAdapter.ViewHolder target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.drawerTXT = null;
+    target.navIconIV = null;
+    target.adapterCON = null;
+  }
+}

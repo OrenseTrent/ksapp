@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/circular_layout_webview"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/default_dimen"
+    android:paddingRight="@dimen/default_dimen">
+
+    <ImageView
+        android:id="@+id/activityBackBTN"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/back"
+        android:padding="@dimen/half_dimen"
+        android:layout_margin="@dimen/default_dimen"/>
+
+    <TextView
+        android:id="@+id/activityTitleTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_dimen"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:layout_margin="@dimen/default_dimen"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="Module Title"
+        android:textAppearance="@style/TextAppearance.Bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/activityIconBTN"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/csr"
+        android:layout_margin="@dimen/dimen_20"/>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+// Generated code from Butter Knife. Do not modify!
+package com.cloversoft.ks.android.fragment.transfer;
+
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.Spinner;
+import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import androidx.recyclerview.widget.RecyclerView;
+import butterknife.Unbinder;
+import butterknife.internal.Utils;
+import com.cloversoft.ks.R;
+import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class TransferFragment_ViewBinding implements Unbinder {
+  private TransferFragment target;
+
+  @UiThread
+  public TransferFragment_ViewBinding(TransferFragment target, View source) {
+    this.target = target;
+
+    target.swapBTN = Utils.findRequiredViewAsType(source, R.id.swapBTN, "field 'swapBTN'", ImageView.class);
+    target.balanceTXT = Utils.findRequiredViewAsType(source, R.id.balanceTXT, "field 'balanceTXT'", TextView.class);
+    target.balance1TXT = Utils.findRequiredViewAsType(source, R.id.balance1TXT, "field 'balance1TXT'", TextView.class);
+    target.balance2TXT = Utils.findRequiredViewAsType(source, R.id.balance2TXT, "field 'balance2TXT'", TextView.class);
+    target.balance3TXT = Utils.findRequiredViewAsType(source, R.id.balance3TXT, "field 'balance3TXT'", TextView.class);
+    target.balance4TXT = Utils.findRequiredViewAsType(source, R.id.balance4TXT, "field 'balance4TXT'", TextView.class);
+    target.spinner1 = Utils.findRequiredViewAsType(source, R.id.spinner1, "field 'spinner1'", Spinner.class);
+    target.spinner2 = Utils.findRequiredViewAsType(source, R.id.spinner2, "field 'spinner2'", Spinner.class);
+    target.maxBTN = Utils.findRequiredViewAsType(source, R.id.maxBTN, "field 'maxBTN'", TextView.class);
+    target.submitBTN = Utils.findRequiredViewAsType(source, R.id.submitBTN, "field 'submitBTN'", TextView.class);
+    target.gameBalanceRV = Utils.findRequiredViewAsType(source, R.id.gameBalanceRV, "field 'gameBalanceRV'", RecyclerView.class);
+    target.expandableLayout = Utils.findRequiredViewAsType(source, R.id.expandableLayout, "field 'expandableLayout'", ExpandableRelativeLayout.class);
+    target.toggleBTN = Utils.findRequiredViewAsType(source, R.id.toggleBTN, "field 'toggleBTN'", ImageView.class);
+    target.toggleBTNDown = Utils.findRequiredViewAsType(source, R.id.toggleBTNDown, "field 'toggleBTNDown'", ImageView.class);
+    target.toggleLayout = Utils.findRequiredViewAsType(source, R.id.toggleLayout, "field 'toggleLayout'", Button.class);
+    target.ammountET = Utils.findRequiredViewAsType(source, R.id.ammountET, "field 'ammountET'", EditText.class);
+    target.money100 = Utils.findRequiredViewAsType(source, R.id.money100, "field 'money100'", TextView.class);
+    target.money500 = Utils.findRequiredViewAsType(source, R.id.money500, "field 'money500'", TextView.class);
+    target.money2000 = Utils.findRequiredViewAsType(source, R.id.money2000, "field 'money2000'", TextView.class);
+    target.money3000 = Utils.findRequiredViewAsType(source, R.id.money3000, "field 'money3000'", TextView.class);
+    target.money5000 = Utils.findRequiredViewAsType(source, R.id.money5000, "field 'money5000'", TextView.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    TransferFragment target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.swapBTN = null;
+    target.balanceTXT = null;
+    target.balance1TXT = null;
+    target.balance2TXT = null;
+    target.balance3TXT = null;
+    target.balance4TXT = null;
+    target.spinner1 = null;
+    target.spinner2 = null;
+    target.maxBTN = null;
+    target.submitBTN = null;
+    target.gameBalanceRV = null;
+    target.expandableLayout = null;
+    target.toggleBTN = null;
+    target.toggleBTNDown = null;
+    target.toggleLayout = null;
+    target.ammountET = null;
+    target.money100 = null;
+    target.money500 = null;
+    target.money2000 = null;
+    target.money3000 = null;
+    target.money5000 = null;
+  }
+}

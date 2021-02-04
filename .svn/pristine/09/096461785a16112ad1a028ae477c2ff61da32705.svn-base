@@ -1,0 +1,15 @@
+package io.realm;
+
+
+public interface com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface {
+    public int realmGet$db_id();
+    public void realmSet$db_id(int value);
+    public String realmGet$created_at();
+    public void realmSet$created_at(String value);
+    public String realmGet$updated_at();
+    public void realmSet$updated_at(String value);
+    public String realmGet$deleted_at();
+    public void realmSet$deleted_at(String value);
+    public int realmGet$id();
+    public void realmSet$id(int value);
+}

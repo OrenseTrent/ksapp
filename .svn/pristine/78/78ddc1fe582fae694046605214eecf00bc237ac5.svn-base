@@ -1,0 +1,58 @@
+// Generated code from Butter Knife. Do not modify!
+package com.cloversoft.ks.android.fragment.profile;
+
+import android.view.View;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import butterknife.Unbinder;
+import butterknife.internal.Utils;
+import com.cloversoft.ks.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class UpdateProfileFragment_ViewBinding implements Unbinder {
+  private UpdateProfileFragment target;
+
+  @UiThread
+  public UpdateProfileFragment_ViewBinding(UpdateProfileFragment target, View source) {
+    this.target = target;
+
+    target.depositCON = Utils.findRequiredView(source, R.id.depositCON, "field 'depositCON'");
+    target.transferCON = Utils.findRequiredView(source, R.id.transferCON, "field 'transferCON'");
+    target.withdrawCON = Utils.findRequiredView(source, R.id.withdrawCON, "field 'withdrawCON'");
+    target.msgCON = Utils.findRequiredView(source, R.id.msgCON, "field 'msgCON'");
+    target.trasactHistoryBTN = Utils.findRequiredView(source, R.id.trasactHistoryBTN, "field 'trasactHistoryBTN'");
+    target.discountBTN = Utils.findRequiredView(source, R.id.discountBTN, "field 'discountBTN'");
+    target.inviteRewardBTN = Utils.findRequiredView(source, R.id.inviteRewardBTN, "field 'inviteRewardBTN'");
+    target.personalInfoBTN = Utils.findRequiredView(source, R.id.personalInfoBTN, "field 'personalInfoBTN'");
+    target.joinUsBTN = Utils.findRequiredView(source, R.id.joinUsBTN, "field 'joinUsBTN'");
+    target.aboutUsBTN = Utils.findRequiredView(source, R.id.aboutUsBTN, "field 'aboutUsBTN'");
+    target.speedBTN = Utils.findRequiredView(source, R.id.speedBTN, "field 'speedBTN'");
+    target.feedbackBTN = Utils.findRequiredView(source, R.id.feedbackBTN, "field 'feedbackBTN'");
+    target.agentBTN = Utils.findRequiredView(source, R.id.agentBTN, "field 'agentBTN'");
+    target.signOutBTN = Utils.findRequiredView(source, R.id.signOutBTN, "field 'signOutBTN'");
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    UpdateProfileFragment target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.depositCON = null;
+    target.transferCON = null;
+    target.withdrawCON = null;
+    target.msgCON = null;
+    target.trasactHistoryBTN = null;
+    target.discountBTN = null;
+    target.inviteRewardBTN = null;
+    target.personalInfoBTN = null;
+    target.joinUsBTN = null;
+    target.aboutUsBTN = null;
+    target.speedBTN = null;
+    target.feedbackBTN = null;
+    target.agentBTN = null;
+    target.signOutBTN = null;
+  }
+}

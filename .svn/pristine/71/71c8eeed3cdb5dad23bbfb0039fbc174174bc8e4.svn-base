@@ -1,0 +1,53 @@
+// Generated code from Butter Knife. Do not modify!
+package com.cloversoft.ks.android.adapter;
+
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import butterknife.Unbinder;
+import butterknife.internal.Utils;
+import com.cloversoft.ks.R;
+import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class TransferGameBalanceAdapter$ViewHolder_ViewBinding implements Unbinder {
+  private TransferGameBalanceAdapter.ViewHolder target;
+
+  @UiThread
+  public TransferGameBalanceAdapter$ViewHolder_ViewBinding(
+      TransferGameBalanceAdapter.ViewHolder target, View source) {
+    this.target = target;
+
+    target.adapterCON = Utils.findRequiredView(source, R.id.adapterCON, "field 'adapterCON'");
+    target.toggleBTN = Utils.findRequiredViewAsType(source, R.id.toggleBTN, "field 'toggleBTN'", ImageView.class);
+    target.toggleBTNDown = Utils.findRequiredViewAsType(source, R.id.toggleBTNDown, "field 'toggleBTNDown'", ImageView.class);
+    target.toggleLayout = Utils.findRequiredViewAsType(source, R.id.toggleLayout, "field 'toggleLayout'", Button.class);
+    target.expandableLayout = Utils.findRequiredViewAsType(source, R.id.expandableLayout, "field 'expandableLayout'", ExpandableRelativeLayout.class);
+    target.nameTXT = Utils.findRequiredViewAsType(source, R.id.nameTXT, "field 'nameTXT'", TextView.class);
+    target.balanceTXT = Utils.findRequiredViewAsType(source, R.id.balanceTXT, "field 'balanceTXT'", TextView.class);
+    target.sampleTXT = Utils.findRequiredViewAsType(source, R.id.sampleTXT, "field 'sampleTXT'", TextView.class);
+    target.infoTXT = Utils.findRequiredViewAsType(source, R.id.infoTXT, "field 'infoTXT'", TextView.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    TransferGameBalanceAdapter.ViewHolder target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.adapterCON = null;
+    target.toggleBTN = null;
+    target.toggleBTNDown = null;
+    target.toggleLayout = null;
+    target.expandableLayout = null;
+    target.nameTXT = null;
+    target.balanceTXT = null;
+    target.sampleTXT = null;
+    target.infoTXT = null;
+  }
+}

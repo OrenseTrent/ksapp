@@ -1,0 +1,7 @@
+package io.realm;
+
+
+public interface com_cloversoft_ks_vendor_android_java_realm_RealmStringRealmProxyInterface {
+    public String realmGet$name();
+    public void realmSet$name(String value);
+}

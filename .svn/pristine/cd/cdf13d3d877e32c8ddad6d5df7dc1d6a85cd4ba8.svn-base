@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/ksmobile_bg"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:src="@drawable/ks_splash"
+        />
+
+    <TextView
+        android:id="@+id/sponsorTV"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sponsor_lbl"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/sponsorIV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:src="@drawable/riverplate"
+        android:layout_below="@+id/sponsorTV"
+        android:layout_marginTop="@dimen/default_dimen"
+        />
+
+    <TextView
+        android:id="@+id/locTV"
+        android:layout_below="@id/sponsorIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ausburg"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/default_dimen"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40"
+        android:orientation="horizontal"
+        android:background="@drawable/circular_et"
+        android:layout_margin="@dimen/dimen_20"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/loginTXT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="登录"
+            android:gravity="center"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/registerTXT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="注册"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:background="@drawable/circular_tv"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/registerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_20"
+        android:layout_marginEnd="@dimen/dimen_20"
+        android:orientation="vertical"
+        android:padding="@dimen/default_dimen"
+        android:visibility="visible"
+        >
+
+        <EditText
+            android:id="@+id/usernameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_et"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="@dimen/dimen_20"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:padding="@dimen/default_dimen"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:layout_marginBottom="@dimen/dimen_20"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/white"
+            app:hintEnabled="false"
+            android:layout_marginBottom="@dimen/dimen_20"
+            >
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_et"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="@dimen/dimen_20"
+            android:drawableTint="@color/white"
+            android:hint="密码(至少6位)"
+            android:inputType="textPassword"
+            android:padding="@dimen/default_dimen"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/white"
+            app:hintEnabled="false"
+            >
+        <EditText
+            android:id="@+id/confirmpassET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_et"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="@dimen/dimen_20"
+            android:drawableTint="@color/white"
+            android:hint="请再次输入密码"
+            android:inputType="textPassword"
+            android:padding="@dimen/default_dimen"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dimen_20"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <EditText
+            android:id="@+id/numberET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_et"
+            android:drawableStart="@drawable/cellphone"
+            android:drawablePadding="@dimen/dimen_20"
+            android:drawableTint="@color/white"
+            android:hint="请输入手机号码"
+            android:inputType="text"
+            android:padding="@dimen/default_dimen"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dimen_20"/>
+
+
+        <EditText
+            android:id="@+id/referralET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_et"
+            android:drawableStart="@drawable/referral"
+            android:drawablePadding="@dimen/dimen_20"
+            android:drawableTint="@color/white"
+            android:hint="好友优惠推荐码(选填)"
+            android:inputType="text"
+            android:padding="@dimen/default_dimen"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dimen_20"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_20"
+        android:layout_marginEnd="@dimen/dimen_20"
+        android:orientation="vertical"
+        android:padding="@dimen/default_dimen"
+        android:visibility="gone"
+        >
+
+        <EditText
+            android:id="@+id/loginUsernameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_et"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="@dimen/dimen_20"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:padding="@dimen/default_dimen"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:layout_marginBottom="@dimen/dimen_20"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/white"
+            app:hintEnabled="false"
+            android:layout_marginBottom="@dimen/dimen_20"
+            >
+
+            <EditText
+                android:id="@+id/loginPasswordET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circular_et"
+                android:drawableStart="@drawable/password"
+                android:drawablePadding="@dimen/dimen_20"
+                android:drawableTint="@color/white"
+                android:hint="密码(至少6位)"
+                android:inputType="textPassword"
+                android:padding="@dimen/default_dimen"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/registerBTN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="注册"
+        android:background="@drawable/circular_et"
+        android:gravity="center"
+        android:layout_margin="@dimen/default_dimen"
+        android:padding="@dimen/dimen_20"
+        android:backgroundTint="@color/regis_gray"
+        />
+
+    <TextView
+        android:id="@+id/loginBTN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="登录"
+        android:background="@drawable/circular_et"
+        android:gravity="center"
+        android:layout_margin="@dimen/default_dimen"
+        android:padding="@dimen/dimen_20"
+        android:backgroundTint="@color/regis_gray"
+        android:visibility="gone"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/half_dimen"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="中文"
+            android:layout_marginTop="@dimen/default_dimen"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/default_dimen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="ENGLISH"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="@dimen/default_dimen"
+            android:layout_marginBottom="@dimen/default_dimen"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/shopBTN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="先去逛逛"
+        android:background="@drawable/circular_et"
+        android:gravity="center"
+        android:layout_margin="@dimen/default_dimen"
+        android:backgroundTint="@color/regis_shop"
+        android:padding="@dimen/default_dimen"
+        />
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

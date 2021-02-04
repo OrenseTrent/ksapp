@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_main_header" />
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/transparent"
+        android:layout_weight="1"/>
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_height="?actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom|end"
+        app:hideOnScroll="true"
+        android:background="@color/white"
+        tools:ignore="BottomAppBar">
+
+        <LinearLayout
+            android:id="@+id/mainMenuCON"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+
+            <LinearLayout
+                android:id="@+id/homeCon"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/main_menu_selector_tab"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="@dimen/default_dimen">
+
+                <ImageView
+                    android:id="@+id/homeIMG"
+                    android:layout_width="18dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_home" />
+
+                <TextView
+                    android:id="@+id/homeTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="HOME"
+                    android:textAllCaps="true"
+                    android:textSize="8sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/scanCon"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                android:background="@drawable/main_menu_selector_tab"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="@dimen/default_dimen">
+
+                <ImageView
+                    android:id="@+id/scanIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_profile"
+                    />
+
+                <TextView
+                    android:id="@+id/scanTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Profile"
+                    android:textAllCaps="true"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/settingsCON"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                android:background="@drawable/main_menu_selector_tab"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="@dimen/default_dimen">
+
+                <ImageView
+                    android:id="@+id/settingsIMG"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_settings" />
+
+                <TextView
+                    android:id="@+id/settingsTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="SETTINGS"
+                    android:textAllCaps="true"
+                    android:textSize="8sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+</LinearLayout>

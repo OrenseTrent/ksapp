@@ -1,0 +1,705 @@
+package io.realm;
+
+
+import android.annotation.TargetApi;
+import android.os.Build;
+import android.util.JsonReader;
+import android.util.JsonToken;
+import io.realm.ProxyUtils;
+import io.realm.exceptions.RealmMigrationNeededException;
+import io.realm.internal.ColumnInfo;
+import io.realm.internal.OsList;
+import io.realm.internal.OsObject;
+import io.realm.internal.OsObjectSchemaInfo;
+import io.realm.internal.OsSchemaInfo;
+import io.realm.internal.Property;
+import io.realm.internal.RealmObjectProxy;
+import io.realm.internal.Row;
+import io.realm.internal.Table;
+import io.realm.internal.android.JsonUtils;
+import io.realm.log.RealmLog;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+@SuppressWarnings("all")
+public class com_cloversoft_ks_data_model_db_SampleRealModelRealmProxy extends com.cloversoft.ks.data.model.db.SampleRealModel
+    implements RealmObjectProxy, com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface {
+
+    static final class SampleRealModelColumnInfo extends ColumnInfo {
+        long db_idIndex;
+        long created_atIndex;
+        long updated_atIndex;
+        long deleted_atIndex;
+        long idIndex;
+
+        SampleRealModelColumnInfo(OsSchemaInfo schemaInfo) {
+            super(5);
+            OsObjectSchemaInfo objectSchemaInfo = schemaInfo.getObjectSchemaInfo("SampleRealModel");
+            this.db_idIndex = addColumnDetails("db_id", "db_id", objectSchemaInfo);
+            this.created_atIndex = addColumnDetails("created_at", "created_at", objectSchemaInfo);
+            this.updated_atIndex = addColumnDetails("updated_at", "updated_at", objectSchemaInfo);
+            this.deleted_atIndex = addColumnDetails("deleted_at", "deleted_at", objectSchemaInfo);
+            this.idIndex = addColumnDetails("id", "id", objectSchemaInfo);
+        }
+
+        SampleRealModelColumnInfo(ColumnInfo src, boolean mutable) {
+            super(src, mutable);
+            copy(src, this);
+        }
+
+        @Override
+        protected final ColumnInfo copy(boolean mutable) {
+            return new SampleRealModelColumnInfo(this, mutable);
+        }
+
+        @Override
+        protected final void copy(ColumnInfo rawSrc, ColumnInfo rawDst) {
+            final SampleRealModelColumnInfo src = (SampleRealModelColumnInfo) rawSrc;
+            final SampleRealModelColumnInfo dst = (SampleRealModelColumnInfo) rawDst;
+            dst.db_idIndex = src.db_idIndex;
+            dst.created_atIndex = src.created_atIndex;
+            dst.updated_atIndex = src.updated_atIndex;
+            dst.deleted_atIndex = src.deleted_atIndex;
+            dst.idIndex = src.idIndex;
+        }
+    }
+
+    private static final OsObjectSchemaInfo expectedObjectSchemaInfo = createExpectedObjectSchemaInfo();
+
+    private SampleRealModelColumnInfo columnInfo;
+    private ProxyState<com.cloversoft.ks.data.model.db.SampleRealModel> proxyState;
+
+    com_cloversoft_ks_data_model_db_SampleRealModelRealmProxy() {
+        proxyState.setConstructionFinished();
+    }
+
+    @Override
+    public void realm$injectObjectContext() {
+        if (this.proxyState != null) {
+            return;
+        }
+        final BaseRealm.RealmObjectContext context = BaseRealm.objectContext.get();
+        this.columnInfo = (SampleRealModelColumnInfo) context.getColumnInfo();
+        this.proxyState = new ProxyState<com.cloversoft.ks.data.model.db.SampleRealModel>(this);
+        proxyState.setRealm$realm(context.getRealm());
+        proxyState.setRow$realm(context.getRow());
+        proxyState.setAcceptDefaultValue$realm(context.getAcceptDefaultValue());
+        proxyState.setExcludeFields$realm(context.getExcludeFields());
+    }
+
+    @Override
+    @SuppressWarnings("cast")
+    public int realmGet$db_id() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (int) proxyState.getRow$realm().getLong(columnInfo.db_idIndex);
+    }
+
+    @Override
+    public void realmSet$db_id(int value) {
+        if (proxyState.isUnderConstruction()) {
+            // default value of the primary key is always ignored.
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        throw new io.realm.exceptions.RealmException("Primary key field 'db_id' cannot be changed after object was created.");
+    }
+
+    @Override
+    @SuppressWarnings("cast")
+    public String realmGet$created_at() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (java.lang.String) proxyState.getRow$realm().getString(columnInfo.created_atIndex);
+    }
+
+    @Override
+    public void realmSet$created_at(String value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.created_atIndex, row.getIndex(), true);
+                return;
+            }
+            row.getTable().setString(columnInfo.created_atIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.created_atIndex);
+            return;
+        }
+        proxyState.getRow$realm().setString(columnInfo.created_atIndex, value);
+    }
+
+    @Override
+    @SuppressWarnings("cast")
+    public String realmGet$updated_at() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (java.lang.String) proxyState.getRow$realm().getString(columnInfo.updated_atIndex);
+    }
+
+    @Override
+    public void realmSet$updated_at(String value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.updated_atIndex, row.getIndex(), true);
+                return;
+            }
+            row.getTable().setString(columnInfo.updated_atIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.updated_atIndex);
+            return;
+        }
+        proxyState.getRow$realm().setString(columnInfo.updated_atIndex, value);
+    }
+
+    @Override
+    @SuppressWarnings("cast")
+    public String realmGet$deleted_at() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (java.lang.String) proxyState.getRow$realm().getString(columnInfo.deleted_atIndex);
+    }
+
+    @Override
+    public void realmSet$deleted_at(String value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.deleted_atIndex, row.getIndex(), true);
+                return;
+            }
+            row.getTable().setString(columnInfo.deleted_atIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.deleted_atIndex);
+            return;
+        }
+        proxyState.getRow$realm().setString(columnInfo.deleted_atIndex, value);
+    }
+
+    @Override
+    @SuppressWarnings("cast")
+    public int realmGet$id() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (int) proxyState.getRow$realm().getLong(columnInfo.idIndex);
+    }
+
+    @Override
+    public void realmSet$id(int value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            row.getTable().setLong(columnInfo.idIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        proxyState.getRow$realm().setLong(columnInfo.idIndex, value);
+    }
+
+    private static OsObjectSchemaInfo createExpectedObjectSchemaInfo() {
+        OsObjectSchemaInfo.Builder builder = new OsObjectSchemaInfo.Builder("SampleRealModel", 5, 0);
+        builder.addPersistedProperty("db_id", RealmFieldType.INTEGER, Property.PRIMARY_KEY, Property.INDEXED, Property.REQUIRED);
+        builder.addPersistedProperty("created_at", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+        builder.addPersistedProperty("updated_at", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+        builder.addPersistedProperty("deleted_at", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+        builder.addPersistedProperty("id", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
+        return builder.build();
+    }
+
+    public static OsObjectSchemaInfo getExpectedObjectSchemaInfo() {
+        return expectedObjectSchemaInfo;
+    }
+
+    public static SampleRealModelColumnInfo createColumnInfo(OsSchemaInfo schemaInfo) {
+        return new SampleRealModelColumnInfo(schemaInfo);
+    }
+
+    public static String getSimpleClassName() {
+        return "SampleRealModel";
+    }
+
+    public static final class ClassNameHelper {
+        public static final String INTERNAL_CLASS_NAME = "SampleRealModel";
+    }
+
+    @SuppressWarnings("cast")
+    public static com.cloversoft.ks.data.model.db.SampleRealModel createOrUpdateUsingJsonObject(Realm realm, JSONObject json, boolean update)
+        throws JSONException {
+        final List<String> excludeFields = Collections.<String> emptyList();
+        com.cloversoft.ks.data.model.db.SampleRealModel obj = null;
+        if (update) {
+            Table table = realm.getTable(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+            SampleRealModelColumnInfo columnInfo = (SampleRealModelColumnInfo) realm.getSchema().getColumnInfo(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+            long pkColumnIndex = columnInfo.db_idIndex;
+            long rowIndex = Table.NO_MATCH;
+            if (!json.isNull("db_id")) {
+                rowIndex = table.findFirstLong(pkColumnIndex, json.getLong("db_id"));
+            }
+            if (rowIndex != Table.NO_MATCH) {
+                final BaseRealm.RealmObjectContext objectContext = BaseRealm.objectContext.get();
+                try {
+                    objectContext.set(realm, table.getUncheckedRow(rowIndex), realm.getSchema().getColumnInfo(com.cloversoft.ks.data.model.db.SampleRealModel.class), false, Collections.<String> emptyList());
+                    obj = new io.realm.com_cloversoft_ks_data_model_db_SampleRealModelRealmProxy();
+                } finally {
+                    objectContext.clear();
+                }
+            }
+        }
+        if (obj == null) {
+            if (json.has("db_id")) {
+                if (json.isNull("db_id")) {
+                    obj = (io.realm.com_cloversoft_ks_data_model_db_SampleRealModelRealmProxy) realm.createObjectInternal(com.cloversoft.ks.data.model.db.SampleRealModel.class, null, true, excludeFields);
+                } else {
+                    obj = (io.realm.com_cloversoft_ks_data_model_db_SampleRealModelRealmProxy) realm.createObjectInternal(com.cloversoft.ks.data.model.db.SampleRealModel.class, json.getInt("db_id"), true, excludeFields);
+                }
+            } else {
+                throw new IllegalArgumentException("JSON object doesn't have the primary key field 'db_id'.");
+            }
+        }
+
+        final com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface objProxy = (com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) obj;
+        if (json.has("created_at")) {
+            if (json.isNull("created_at")) {
+                objProxy.realmSet$created_at(null);
+            } else {
+                objProxy.realmSet$created_at((String) json.getString("created_at"));
+            }
+        }
+        if (json.has("updated_at")) {
+            if (json.isNull("updated_at")) {
+                objProxy.realmSet$updated_at(null);
+            } else {
+                objProxy.realmSet$updated_at((String) json.getString("updated_at"));
+            }
+        }
+        if (json.has("deleted_at")) {
+            if (json.isNull("deleted_at")) {
+                objProxy.realmSet$deleted_at(null);
+            } else {
+                objProxy.realmSet$deleted_at((String) json.getString("deleted_at"));
+            }
+        }
+        if (json.has("id")) {
+            if (json.isNull("id")) {
+                throw new IllegalArgumentException("Trying to set non-nullable field 'id' to null.");
+            } else {
+                objProxy.realmSet$id((int) json.getInt("id"));
+            }
+        }
+        return obj;
+    }
+
+    @SuppressWarnings("cast")
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    public static com.cloversoft.ks.data.model.db.SampleRealModel createUsingJsonStream(Realm realm, JsonReader reader)
+        throws IOException {
+        boolean jsonHasPrimaryKey = false;
+        final com.cloversoft.ks.data.model.db.SampleRealModel obj = new com.cloversoft.ks.data.model.db.SampleRealModel();
+        final com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface objProxy = (com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) obj;
+        reader.beginObject();
+        while (reader.hasNext()) {
+            String name = reader.nextName();
+            if (false) {
+            } else if (name.equals("db_id")) {
+                if (reader.peek() != JsonToken.NULL) {
+                    objProxy.realmSet$db_id((int) reader.nextInt());
+                } else {
+                    reader.skipValue();
+                    throw new IllegalArgumentException("Trying to set non-nullable field 'db_id' to null.");
+                }
+                jsonHasPrimaryKey = true;
+            } else if (name.equals("created_at")) {
+                if (reader.peek() != JsonToken.NULL) {
+                    objProxy.realmSet$created_at((String) reader.nextString());
+                } else {
+                    reader.skipValue();
+                    objProxy.realmSet$created_at(null);
+                }
+            } else if (name.equals("updated_at")) {
+                if (reader.peek() != JsonToken.NULL) {
+                    objProxy.realmSet$updated_at((String) reader.nextString());
+                } else {
+                    reader.skipValue();
+                    objProxy.realmSet$updated_at(null);
+                }
+            } else if (name.equals("deleted_at")) {
+                if (reader.peek() != JsonToken.NULL) {
+                    objProxy.realmSet$deleted_at((String) reader.nextString());
+                } else {
+                    reader.skipValue();
+                    objProxy.realmSet$deleted_at(null);
+                }
+            } else if (name.equals("id")) {
+                if (reader.peek() != JsonToken.NULL) {
+                    objProxy.realmSet$id((int) reader.nextInt());
+                } else {
+                    reader.skipValue();
+                    throw new IllegalArgumentException("Trying to set non-nullable field 'id' to null.");
+                }
+            } else {
+                reader.skipValue();
+            }
+        }
+        reader.endObject();
+        if (!jsonHasPrimaryKey) {
+            throw new IllegalArgumentException("JSON object doesn't have the primary key field 'db_id'.");
+        }
+        return realm.copyToRealm(obj);
+    }
+
+    public static com.cloversoft.ks.data.model.db.SampleRealModel copyOrUpdate(Realm realm, com.cloversoft.ks.data.model.db.SampleRealModel object, boolean update, Map<RealmModel,RealmObjectProxy> cache) {
+        if (object instanceof RealmObjectProxy && ((RealmObjectProxy) object).realmGet$proxyState().getRealm$realm() != null) {
+            final BaseRealm otherRealm = ((RealmObjectProxy) object).realmGet$proxyState().getRealm$realm();
+            if (otherRealm.threadId != realm.threadId) {
+                throw new IllegalArgumentException("Objects which belong to Realm instances in other threads cannot be copied into this Realm instance.");
+            }
+            if (otherRealm.getPath().equals(realm.getPath())) {
+                return object;
+            }
+        }
+        final BaseRealm.RealmObjectContext objectContext = BaseRealm.objectContext.get();
+        RealmObjectProxy cachedRealmObject = cache.get(object);
+        if (cachedRealmObject != null) {
+            return (com.cloversoft.ks.data.model.db.SampleRealModel) cachedRealmObject;
+        }
+
+        com.cloversoft.ks.data.model.db.SampleRealModel realmObject = null;
+        boolean canUpdate = update;
+        if (canUpdate) {
+            Table table = realm.getTable(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+            SampleRealModelColumnInfo columnInfo = (SampleRealModelColumnInfo) realm.getSchema().getColumnInfo(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+            long pkColumnIndex = columnInfo.db_idIndex;
+            long rowIndex = table.findFirstLong(pkColumnIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id());
+            if (rowIndex == Table.NO_MATCH) {
+                canUpdate = false;
+            } else {
+                try {
+                    objectContext.set(realm, table.getUncheckedRow(rowIndex), realm.getSchema().getColumnInfo(com.cloversoft.ks.data.model.db.SampleRealModel.class), false, Collections.<String> emptyList());
+                    realmObject = new io.realm.com_cloversoft_ks_data_model_db_SampleRealModelRealmProxy();
+                    cache.put(object, (RealmObjectProxy) realmObject);
+                } finally {
+                    objectContext.clear();
+                }
+            }
+        }
+
+        return (canUpdate) ? update(realm, realmObject, object, cache) : copy(realm, object, update, cache);
+    }
+
+    public static com.cloversoft.ks.data.model.db.SampleRealModel copy(Realm realm, com.cloversoft.ks.data.model.db.SampleRealModel newObject, boolean update, Map<RealmModel,RealmObjectProxy> cache) {
+        RealmObjectProxy cachedRealmObject = cache.get(newObject);
+        if (cachedRealmObject != null) {
+            return (com.cloversoft.ks.data.model.db.SampleRealModel) cachedRealmObject;
+        }
+
+        // rejecting default values to avoid creating unexpected objects from RealmModel/RealmList fields.
+        com.cloversoft.ks.data.model.db.SampleRealModel realmObject = realm.createObjectInternal(com.cloversoft.ks.data.model.db.SampleRealModel.class, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) newObject).realmGet$db_id(), false, Collections.<String>emptyList());
+        cache.put(newObject, (RealmObjectProxy) realmObject);
+
+        com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface realmObjectSource = (com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) newObject;
+        com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface realmObjectCopy = (com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) realmObject;
+
+        realmObjectCopy.realmSet$created_at(realmObjectSource.realmGet$created_at());
+        realmObjectCopy.realmSet$updated_at(realmObjectSource.realmGet$updated_at());
+        realmObjectCopy.realmSet$deleted_at(realmObjectSource.realmGet$deleted_at());
+        realmObjectCopy.realmSet$id(realmObjectSource.realmGet$id());
+        return realmObject;
+    }
+
+    public static long insert(Realm realm, com.cloversoft.ks.data.model.db.SampleRealModel object, Map<RealmModel,Long> cache) {
+        if (object instanceof RealmObjectProxy && ((RealmObjectProxy) object).realmGet$proxyState().getRealm$realm() != null && ((RealmObjectProxy) object).realmGet$proxyState().getRealm$realm().getPath().equals(realm.getPath())) {
+            return ((RealmObjectProxy) object).realmGet$proxyState().getRow$realm().getIndex();
+        }
+        Table table = realm.getTable(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+        long tableNativePtr = table.getNativePtr();
+        SampleRealModelColumnInfo columnInfo = (SampleRealModelColumnInfo) realm.getSchema().getColumnInfo(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+        long pkColumnIndex = columnInfo.db_idIndex;
+        long rowIndex = Table.NO_MATCH;
+        Object primaryKeyValue = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id();
+        if (primaryKeyValue != null) {
+            rowIndex = Table.nativeFindFirstInt(tableNativePtr, pkColumnIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id());
+        }
+        if (rowIndex == Table.NO_MATCH) {
+            rowIndex = OsObject.createRowWithPrimaryKey(table, pkColumnIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id());
+        } else {
+            Table.throwDuplicatePrimaryKeyException(primaryKeyValue);
+        }
+        cache.put(object, rowIndex);
+        String realmGet$created_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$created_at();
+        if (realmGet$created_at != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.created_atIndex, rowIndex, realmGet$created_at, false);
+        }
+        String realmGet$updated_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$updated_at();
+        if (realmGet$updated_at != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.updated_atIndex, rowIndex, realmGet$updated_at, false);
+        }
+        String realmGet$deleted_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$deleted_at();
+        if (realmGet$deleted_at != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.deleted_atIndex, rowIndex, realmGet$deleted_at, false);
+        }
+        Table.nativeSetLong(tableNativePtr, columnInfo.idIndex, rowIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$id(), false);
+        return rowIndex;
+    }
+
+    public static void insert(Realm realm, Iterator<? extends RealmModel> objects, Map<RealmModel,Long> cache) {
+        Table table = realm.getTable(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+        long tableNativePtr = table.getNativePtr();
+        SampleRealModelColumnInfo columnInfo = (SampleRealModelColumnInfo) realm.getSchema().getColumnInfo(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+        long pkColumnIndex = columnInfo.db_idIndex;
+        com.cloversoft.ks.data.model.db.SampleRealModel object = null;
+        while (objects.hasNext()) {
+            object = (com.cloversoft.ks.data.model.db.SampleRealModel) objects.next();
+            if (cache.containsKey(object)) {
+                continue;
+            }
+            if (object instanceof RealmObjectProxy && ((RealmObjectProxy) object).realmGet$proxyState().getRealm$realm() != null && ((RealmObjectProxy) object).realmGet$proxyState().getRealm$realm().getPath().equals(realm.getPath())) {
+                cache.put(object, ((RealmObjectProxy) object).realmGet$proxyState().getRow$realm().getIndex());
+                continue;
+            }
+            long rowIndex = Table.NO_MATCH;
+            Object primaryKeyValue = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id();
+            if (primaryKeyValue != null) {
+                rowIndex = Table.nativeFindFirstInt(tableNativePtr, pkColumnIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id());
+            }
+            if (rowIndex == Table.NO_MATCH) {
+                rowIndex = OsObject.createRowWithPrimaryKey(table, pkColumnIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id());
+            } else {
+                Table.throwDuplicatePrimaryKeyException(primaryKeyValue);
+            }
+            cache.put(object, rowIndex);
+            String realmGet$created_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$created_at();
+            if (realmGet$created_at != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.created_atIndex, rowIndex, realmGet$created_at, false);
+            }
+            String realmGet$updated_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$updated_at();
+            if (realmGet$updated_at != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.updated_atIndex, rowIndex, realmGet$updated_at, false);
+            }
+            String realmGet$deleted_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$deleted_at();
+            if (realmGet$deleted_at != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.deleted_atIndex, rowIndex, realmGet$deleted_at, false);
+            }
+            Table.nativeSetLong(tableNativePtr, columnInfo.idIndex, rowIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$id(), false);
+        }
+    }
+
+    public static long insertOrUpdate(Realm realm, com.cloversoft.ks.data.model.db.SampleRealModel object, Map<RealmModel,Long> cache) {
+        if (object instanceof RealmObjectProxy && ((RealmObjectProxy) object).realmGet$proxyState().getRealm$realm() != null && ((RealmObjectProxy) object).realmGet$proxyState().getRealm$realm().getPath().equals(realm.getPath())) {
+            return ((RealmObjectProxy) object).realmGet$proxyState().getRow$realm().getIndex();
+        }
+        Table table = realm.getTable(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+        long tableNativePtr = table.getNativePtr();
+        SampleRealModelColumnInfo columnInfo = (SampleRealModelColumnInfo) realm.getSchema().getColumnInfo(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+        long pkColumnIndex = columnInfo.db_idIndex;
+        long rowIndex = Table.NO_MATCH;
+        Object primaryKeyValue = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id();
+        if (primaryKeyValue != null) {
+            rowIndex = Table.nativeFindFirstInt(tableNativePtr, pkColumnIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id());
+        }
+        if (rowIndex == Table.NO_MATCH) {
+            rowIndex = OsObject.createRowWithPrimaryKey(table, pkColumnIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id());
+        }
+        cache.put(object, rowIndex);
+        String realmGet$created_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$created_at();
+        if (realmGet$created_at != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.created_atIndex, rowIndex, realmGet$created_at, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.created_atIndex, rowIndex, false);
+        }
+        String realmGet$updated_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$updated_at();
+        if (realmGet$updated_at != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.updated_atIndex, rowIndex, realmGet$updated_at, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.updated_atIndex, rowIndex, false);
+        }
+        String realmGet$deleted_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$deleted_at();
+        if (realmGet$deleted_at != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.deleted_atIndex, rowIndex, realmGet$deleted_at, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.deleted_atIndex, rowIndex, false);
+        }
+        Table.nativeSetLong(tableNativePtr, columnInfo.idIndex, rowIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$id(), false);
+        return rowIndex;
+    }
+
+    public static void insertOrUpdate(Realm realm, Iterator<? extends RealmModel> objects, Map<RealmModel,Long> cache) {
+        Table table = realm.getTable(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+        long tableNativePtr = table.getNativePtr();
+        SampleRealModelColumnInfo columnInfo = (SampleRealModelColumnInfo) realm.getSchema().getColumnInfo(com.cloversoft.ks.data.model.db.SampleRealModel.class);
+        long pkColumnIndex = columnInfo.db_idIndex;
+        com.cloversoft.ks.data.model.db.SampleRealModel object = null;
+        while (objects.hasNext()) {
+            object = (com.cloversoft.ks.data.model.db.SampleRealModel) objects.next();
+            if (cache.containsKey(object)) {
+                continue;
+            }
+            if (object instanceof RealmObjectProxy && ((RealmObjectProxy) object).realmGet$proxyState().getRealm$realm() != null && ((RealmObjectProxy) object).realmGet$proxyState().getRealm$realm().getPath().equals(realm.getPath())) {
+                cache.put(object, ((RealmObjectProxy) object).realmGet$proxyState().getRow$realm().getIndex());
+                continue;
+            }
+            long rowIndex = Table.NO_MATCH;
+            Object primaryKeyValue = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id();
+            if (primaryKeyValue != null) {
+                rowIndex = Table.nativeFindFirstInt(tableNativePtr, pkColumnIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id());
+            }
+            if (rowIndex == Table.NO_MATCH) {
+                rowIndex = OsObject.createRowWithPrimaryKey(table, pkColumnIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$db_id());
+            }
+            cache.put(object, rowIndex);
+            String realmGet$created_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$created_at();
+            if (realmGet$created_at != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.created_atIndex, rowIndex, realmGet$created_at, false);
+            } else {
+                Table.nativeSetNull(tableNativePtr, columnInfo.created_atIndex, rowIndex, false);
+            }
+            String realmGet$updated_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$updated_at();
+            if (realmGet$updated_at != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.updated_atIndex, rowIndex, realmGet$updated_at, false);
+            } else {
+                Table.nativeSetNull(tableNativePtr, columnInfo.updated_atIndex, rowIndex, false);
+            }
+            String realmGet$deleted_at = ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$deleted_at();
+            if (realmGet$deleted_at != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.deleted_atIndex, rowIndex, realmGet$deleted_at, false);
+            } else {
+                Table.nativeSetNull(tableNativePtr, columnInfo.deleted_atIndex, rowIndex, false);
+            }
+            Table.nativeSetLong(tableNativePtr, columnInfo.idIndex, rowIndex, ((com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) object).realmGet$id(), false);
+        }
+    }
+
+    public static com.cloversoft.ks.data.model.db.SampleRealModel createDetachedCopy(com.cloversoft.ks.data.model.db.SampleRealModel realmObject, int currentDepth, int maxDepth, Map<RealmModel, CacheData<RealmModel>> cache) {
+        if (currentDepth > maxDepth || realmObject == null) {
+            return null;
+        }
+        CacheData<RealmModel> cachedObject = cache.get(realmObject);
+        com.cloversoft.ks.data.model.db.SampleRealModel unmanagedObject;
+        if (cachedObject == null) {
+            unmanagedObject = new com.cloversoft.ks.data.model.db.SampleRealModel();
+            cache.put(realmObject, new RealmObjectProxy.CacheData<RealmModel>(currentDepth, unmanagedObject));
+        } else {
+            // Reuse cached object or recreate it because it was encountered at a lower depth.
+            if (currentDepth >= cachedObject.minDepth) {
+                return (com.cloversoft.ks.data.model.db.SampleRealModel) cachedObject.object;
+            }
+            unmanagedObject = (com.cloversoft.ks.data.model.db.SampleRealModel) cachedObject.object;
+            cachedObject.minDepth = currentDepth;
+        }
+        com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface unmanagedCopy = (com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) unmanagedObject;
+        com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface realmSource = (com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) realmObject;
+        unmanagedCopy.realmSet$db_id(realmSource.realmGet$db_id());
+        unmanagedCopy.realmSet$created_at(realmSource.realmGet$created_at());
+        unmanagedCopy.realmSet$updated_at(realmSource.realmGet$updated_at());
+        unmanagedCopy.realmSet$deleted_at(realmSource.realmGet$deleted_at());
+        unmanagedCopy.realmSet$id(realmSource.realmGet$id());
+
+        return unmanagedObject;
+    }
+
+    static com.cloversoft.ks.data.model.db.SampleRealModel update(Realm realm, com.cloversoft.ks.data.model.db.SampleRealModel realmObject, com.cloversoft.ks.data.model.db.SampleRealModel newObject, Map<RealmModel, RealmObjectProxy> cache) {
+        com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface realmObjectTarget = (com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) realmObject;
+        com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface realmObjectSource = (com_cloversoft_ks_data_model_db_SampleRealModelRealmProxyInterface) newObject;
+        realmObjectTarget.realmSet$created_at(realmObjectSource.realmGet$created_at());
+        realmObjectTarget.realmSet$updated_at(realmObjectSource.realmGet$updated_at());
+        realmObjectTarget.realmSet$deleted_at(realmObjectSource.realmGet$deleted_at());
+        realmObjectTarget.realmSet$id(realmObjectSource.realmGet$id());
+        return realmObject;
+    }
+
+    @Override
+    @SuppressWarnings("ArrayToString")
+    public String toString() {
+        if (!RealmObject.isValid(this)) {
+            return "Invalid object";
+        }
+        StringBuilder stringBuilder = new StringBuilder("SampleRealModel = proxy[");
+        stringBuilder.append("{db_id:");
+        stringBuilder.append(realmGet$db_id());
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{created_at:");
+        stringBuilder.append(realmGet$created_at() != null ? realmGet$created_at() : "null");
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{updated_at:");
+        stringBuilder.append(realmGet$updated_at() != null ? realmGet$updated_at() : "null");
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{deleted_at:");
+        stringBuilder.append(realmGet$deleted_at() != null ? realmGet$deleted_at() : "null");
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{id:");
+        stringBuilder.append(realmGet$id());
+        stringBuilder.append("}");
+        stringBuilder.append("]");
+        return stringBuilder.toString();
+    }
+
+    @Override
+    public ProxyState<?> realmGet$proxyState() {
+        return proxyState;
+    }
+
+    @Override
+    public int hashCode() {
+        String realmName = proxyState.getRealm$realm().getPath();
+        String tableName = proxyState.getRow$realm().getTable().getName();
+        long rowIndex = proxyState.getRow$realm().getIndex();
+
+        int result = 17;
+        result = 31 * result + ((realmName != null) ? realmName.hashCode() : 0);
+        result = 31 * result + ((tableName != null) ? tableName.hashCode() : 0);
+        result = 31 * result + (int) (rowIndex ^ (rowIndex >>> 32));
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        com_cloversoft_ks_data_model_db_SampleRealModelRealmProxy aSampleRealModel = (com_cloversoft_ks_data_model_db_SampleRealModelRealmProxy)o;
+
+        String path = proxyState.getRealm$realm().getPath();
+        String otherPath = aSampleRealModel.proxyState.getRealm$realm().getPath();
+        if (path != null ? !path.equals(otherPath) : otherPath != null) return false;
+
+        String tableName = proxyState.getRow$realm().getTable().getName();
+        String otherTableName = aSampleRealModel.proxyState.getRow$realm().getTable().getName();
+        if (tableName != null ? !tableName.equals(otherTableName) : otherTableName != null) return false;
+
+        if (proxyState.getRow$realm().getIndex() != aSampleRealModel.proxyState.getRow$realm().getIndex()) return false;
+
+        return true;
+    }
+}

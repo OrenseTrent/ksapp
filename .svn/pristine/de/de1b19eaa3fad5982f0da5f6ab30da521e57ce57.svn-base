@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77155d93-ff5a-4ecb-b3db-32bea988176c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Samsung_S10e_API_29]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\CloverSoft\Keystore\KS.jks" />
+    <option name="KEY_ALIAS" value="ks" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1muLBuCWhmpoZXjtNZ4q8Q9VNrJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="KS_-_Android_Tracked.app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Samsung_S10e_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-20T07:59:50.045Z" />
+    <property name="ExportApk.ApkPath" value="D:\CloverSoft\KS - Android Tracked\app" />
+    <property name="ExportApk.BuildVariants" value="fullDebug" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="algorithm" value="Scalr" />
+    <property name="android-custom-viewC:/Users/trent/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.2.1/37d55d5141066b3d118d24232fa7025b65eb3a74/material-1.2.1-sources.jar!/com/google/android/material/bottomappbar/BottomAppBar.java_SELECTED" value="BottomAppBar" />
+    <property name="android-custom-viewD:/CloverSoft/KS - Android Tracked/app/src/main/java/com/cloversoft/ks/vendor/android/java/ExpandableHeightListView.java_SELECTED" value="ExpandableHeightListView" />
+    <property name="android-custom-viewD:/CloverSoft/KS - Android Tracked/app/src/main/java/com/cloversoft/ks/vendor/android/widget/WrapContentWebView.java_SELECTED" value="WrapContentWebView" />
+    <property name="android-custom-viewE:/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewE:/Android/Sdk/sources/android-30/android/widget/AdapterView.java_SELECTED" value="AdapterView" />
+    <property name="android-custom-viewE:/Android/Sdk/sources/android-30/android/widget/TextView.java_SELECTED" value="TextView" />
+    <property name="destination" value="DRAWABLE" />
+    <property name="format" value="PNG" />
+    <property name="lastFolderRoot" value="$USER_HOME$/Downloads/on" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/cloversoft/ks/vendor/server/request" />
+    <property name="method" value="Automatic" />
+    <property name="multi-representation-previewC:/Users/trent/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.2.1/37d55d5141066b3d118d24232fa7025b65eb3a74/material-1.2.1-sources.jar!/com/google/android/material/bottomappbar/BottomAppBar.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/CloverSoft/KS - Android Tracked/app/src/main/java/com/cloversoft/ks/vendor/android/java/ExpandableHeightListView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/CloverSoft/KS - Android Tracked/app/src/main/java/com/cloversoft/ks/vendor/android/widget/WrapContentWebView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/Sdk/sources/android-30/android/widget/AdapterView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/Sdk/sources/android-30/android/widget/TextView.java_selected" value="Custom views" />
+    <property name="resolutions" value="XHDPI&#10;MDPI&#10;HDPI&#10;XXHDPI&#10;XXXHDPI" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="sourceResolution" value="XHDPI" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CloverSoft\KS - Android Tracked\app\src\main\res\raw" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cloversoft.ks.vendor.android.base" />
+      <recent name="com.cloversoft.ks.vendor.server.transformer" />
+      <recent name="com.cloversoft.ks.vendor.server.request" />
+      <recent name="com.cloversoft.ks.android.adapter" />
+      <recent name="com.cloversoft.ks.android.activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CloverSoft\KS - Android Tracked\KS - Android Tracked\app\src\main\java\com\cloversoft\ks\vendor\server\request" />
+      <recent name="D:\CloverSoft\KS - Android Tracked\KS - Android Tracked\app\src\main\res\drawable-anydpi" />
+      <recent name="D:\CloverSoft\KS - Android Tracked\KS - Android Tracked\app\src\main\res\layout" />
+      <recent name="D:\CloverSoft\KS - Android Tracked\app\src\main\java\com\cloversoft\ks\android\fragment\transfer" />
+      <recent name="D:\CloverSoft\KS - Android Tracked\app\src\main\res\layout" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="KS_-_Android_Tracked.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77155d93-ff5a-4ecb-b3db-32bea988176c" name="Default Changelist" comment="" />
+      <created>1610338396452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610338396452</updated>
+    </task>
+    <task id="LOCAL-00001" summary="code structure, Register/login UI/UX">
+      <created>1610363310092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610363310093</updated>
+    </task>
+    <task id="LOCAL-00002" summary="UI/UX Home">
+      <created>1610454581260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610454581261</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Home and Cust Service">
+      <created>1610527101644</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610527101644</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code structure, Register/login UI/UX" />
+    <MESSAGE value="UI/UX Home" />
+    <MESSAGE value="Home and Cust Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home and Cust Service" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1612463392900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610529861481" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612463392900" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1610787373610" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611902102911" />
+    <state x="525" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610529455924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="525" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610529455924" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612456070390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610521534843" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612456070390" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611387811307" />
+    <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1612239451454">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612239451454" />
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1611906090166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611906090166" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1612423014051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610515977949" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612423014051" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1610697444850" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611736649281" />
+    <state x="775" y="310" key="AndroidCreateXmlResourceDialog" timestamp="1611569445884">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="310" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611569445884" />
+    <state x="587" y="89" key="CommitChangelistDialog2" timestamp="1610527097574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="587" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610527097574" />
+    <state x="1149" y="244" key="FileChooserDialogImpl" timestamp="1612469073878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1149" y="244" key="FileChooserDialogImpl/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610528870391" />
+    <state x="1149" y="244" key="FileChooserDialogImpl/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612469073878" />
+    <state x="1149" y="244" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1610786733012" />
+    <state x="1149" y="244" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611996810752" />
+    <state width="1876" height="411" key="GridCell.Tab.0.bottom" timestamp="1612468397772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610437657023" />
+    <state width="1876" height="411" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612468397772" />
+    <state width="1859" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1611028072253" />
+    <state width="1876" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611988674624" />
+    <state width="1876" height="411" key="GridCell.Tab.0.center" timestamp="1612468397772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="310" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610437657023" />
+    <state width="1876" height="411" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612468397772" />
+    <state width="1859" height="310" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1611028072252" />
+    <state width="1876" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611988674623" />
+    <state width="1876" height="411" key="GridCell.Tab.0.left" timestamp="1612468397772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="310" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610437657023" />
+    <state width="1876" height="411" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612468397772" />
+    <state width="1859" height="310" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1611028072252" />
+    <state width="1876" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611988674623" />
+    <state width="1876" height="411" key="GridCell.Tab.0.right" timestamp="1612468397772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="310" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610437657023" />
+    <state width="1876" height="411" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612468397772" />
+    <state width="1859" height="310" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1611028072253" />
+    <state width="1876" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611988674624" />
+    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1612437042104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612437042104" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1610603003729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610448007762" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610603003729" />
+    <state width="528" height="446" key="SwitcherDM" timestamp="1611808927429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="528" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611808927429" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610527106966">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610527106966" />
+    <state x="606" y="164" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612466136707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="606" y="164" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612466136707" />
+    <state x="606" y="164" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611139217382" />
+    <state x="1925" y="-523" width="1585" height="545" maximized="true" key="dock-window-1" timestamp="1612459302953">
+      <screen x="1920" y="-504" width="1920" height="1040" />
+    </state>
+    <state x="1925" y="-523" width="1585" height="545" maximized="true" key="dock-window-1/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612459302953" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611286832768" />
+    <state x="1920" y="-519" width="1585" height="1026" maximized="true" key="dock-window-2" timestamp="1612467660184">
+      <screen x="1920" y="-504" width="1920" height="1040" />
+    </state>
+    <state x="1920" y="-519" width="1585" height="1026" maximized="true" key="dock-window-2/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612467660184" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611286832768" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-3" timestamp="1611286832768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="dock-window-3/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611286832768" />
+    <state x="667" y="253" width="598" height="592" key="find.popup" timestamp="1612466138793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="592" key="find.popup/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610524115405" />
+    <state x="667" y="253" width="598" height="592" key="find.popup/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612466138793" />
+    <state x="667" y="253" width="585" height="592" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611991106969" />
+    <state x="666" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1612461627660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612461627660" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1612467777698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612467777698" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1610786406506" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611395098788" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612455881038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-407.1920.1040@0.0.1920.1040" timestamp="1610532774255" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-504.1920.1040@0.0.1920.1040" timestamp="1612455881038" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611824901911" />
+  </component>
+</project>

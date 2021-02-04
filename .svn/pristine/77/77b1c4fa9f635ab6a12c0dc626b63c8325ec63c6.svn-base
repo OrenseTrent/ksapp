@@ -1,0 +1,36 @@
+// Generated code from Icepick. Do not modify!
+package com.cloversoft.ks.android.dialog;
+import android.os.Bundle;
+import icepick.Bundler;
+import icepick.Injector.Helper;
+import icepick.Injector.Object;
+
+import java.util.Map;
+import java.util.HashMap;
+
+public class WebViewDialog$$Icepick<T extends WebViewDialog> extends Object<T> {
+
+  private final static Map<String, Bundler<?>> BUNDLERS = new HashMap<String, Bundler<?>>();
+  static {
+            
+  }
+
+  private final static Helper H = new Helper("com.cloversoft.ks.android.dialog.WebViewDialog$$Icepick.", BUNDLERS);
+
+  public void restore(T target, Bundle state) {
+    if (state == null) return;
+    target.url = H.getString(state, "url");
+    target.id = H.getInt(state, "id");
+    target.newURL = H.getString(state, "newURL");
+    target.title = H.getString(state, "title");
+    super.restore(target, state);
+  }
+
+  public void save(T target, Bundle state) {
+    super.save(target, state);
+    H.putString(state, "url", target.url);
+    H.putInt(state, "id", target.id);
+    H.putString(state, "newURL", target.newURL);
+    H.putString(state, "title", target.title);
+  }
+}

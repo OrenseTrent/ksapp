@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adapterCON"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/half_dimen"
+    android:layout_marginTop="@dimen/half_dimen"
+    android:padding="@dimen/default_dimen">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/default_dimen"
+        android:layout_marginRight="@dimen/default_dimen"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cardTXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.Bold"
+            />
+
+        <TextView
+            android:id="@+id/dateTXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Sample Community"
+            android:layout_below="@id/cardTXT"/>
+
+        <TextView
+            android:id="@+id/timeTXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_below="@id/dateTXT"/>
+
+        <TextView
+            android:id="@+id/amountLBL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="金额: "
+            android:layout_toStartOf="@id/amountTXT"
+            android:textColor="@color/txt_red"
+
+            />
+
+        <TextView
+            android:id="@+id/amountTXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/txt_red"
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,300 @@
+com/cloversoft/ks/android/activity/AboutActivity.java
+ com.cloversoft.ks.android.activity.AboutActivity
+com/cloversoft/ks/vendor/android/base/BaseDialog.java
+ com.cloversoft.ks.vendor.android.base.BaseDialog
+com/cloversoft/ks/BuildConfig.java
+ com.cloversoft.ks.BuildConfig
+com/cloversoft/ks/android/activity/DefaultActivity.java
+ com.cloversoft.ks.android.activity.DefaultActivity
+com/cloversoft/ks/config/Url.java
+ com.cloversoft.ks.config.Url
+com/cloversoft/ks/vendor/android/java/NumberFormatter.java
+ com.cloversoft.ks.vendor.android.java.NumberFormatter
+com/cloversoft/ks/vendor/android/java/security/SecurityParser.java
+ com.cloversoft.ks.vendor.android.java.security.SecurityParser
+com/cloversoft/ks/data/model/api/GameListModel.java
+ com.cloversoft.ks.data.model.api.GameListModel
+com/cloversoft/ks/server/request/Transfer.java
+ com.cloversoft.ks.server.request.Transfer
+ com.cloversoft.ks.server.request.Transfer$1
+ com.cloversoft.ks.server.request.Transfer$RequestService
+ com.cloversoft.ks.server.request.Transfer$TransferResponse
+com/cloversoft/ks/android/fragment/rewards/RewardsFragment.java
+ com.cloversoft.ks.android.fragment.rewards.RewardsFragment
+com/cloversoft/ks/vendor/android/widget/CustomOnItemSelectedListener.java
+ com.cloversoft.ks.vendor.android.widget.CustomOnItemSelectedListener
+com/cloversoft/ks/vendor/android/java/Log.java
+ com.cloversoft.ks.vendor.android.java.Log
+com/cloversoft/ks/android/activity/RegisterActivity.java
+ com.cloversoft.ks.android.activity.RegisterActivity
+com/cloversoft/ks/android/adapter/PromotionRecyclerViewAdapter.java
+ com.cloversoft.ks.android.adapter.PromotionRecyclerViewAdapter
+ com.cloversoft.ks.android.adapter.PromotionRecyclerViewAdapter$ClickListener
+ com.cloversoft.ks.android.adapter.PromotionRecyclerViewAdapter$ViewHolder
+com/cloversoft/ks/android/adapter/DefaultListViewAdapter.java
+ com.cloversoft.ks.android.adapter.DefaultListViewAdapter
+ com.cloversoft.ks.android.adapter.DefaultListViewAdapter$ClickListener
+ com.cloversoft.ks.android.adapter.DefaultListViewAdapter$ViewHolder
+com/cloversoft/ks/android/adapter/TransferGameBalanceAdapter.java
+ com.cloversoft.ks.android.adapter.TransferGameBalanceAdapter
+ com.cloversoft.ks.android.adapter.TransferGameBalanceAdapter$ClickListener
+ com.cloversoft.ks.android.adapter.TransferGameBalanceAdapter$ViewHolder
+com/cloversoft/ks/vendor/android/base/BaseFragment.java
+ com.cloversoft.ks.vendor.android.base.BaseFragment
+com/cloversoft/ks/vendor/android/java/security/SecurityLayer.java
+ com.cloversoft.ks.vendor.android.java.security.SecurityLayer
+com/cloversoft/ks/vendor/android/widget/WrapContentWebView.java
+ com.cloversoft.ks.vendor.android.widget.WrapContentWebView
+ com.cloversoft.ks.vendor.android.widget.WrapContentWebView$1
+ com.cloversoft.ks.vendor.android.widget.WrapContentWebView$JavascriptInterface
+ com.cloversoft.ks.vendor.android.widget.WrapContentWebView$JavascriptInterface$1
+com/cloversoft/ks/vendor/android/java/CurrencyFormatter.java
+ com.cloversoft.ks.vendor.android.java.CurrencyFormatter
+com/cloversoft/ks/vendor/android/java/RoundedLinearLayout.java
+ com.cloversoft.ks.vendor.android.java.RoundedLinearLayout
+com/cloversoft/ks/android/adapter/DrawerAdapter.java
+ com.cloversoft.ks.android.adapter.DrawerAdapter
+ com.cloversoft.ks.android.adapter.DrawerAdapter$ClickListener
+ com.cloversoft.ks.android.adapter.DrawerAdapter$ViewHolder
+com/cloversoft/ks/android/fragment/register/SignUpFragment.java
+ com.cloversoft.ks.android.fragment.register.SignUpFragment
+com/cloversoft/ks/vendor/android/java/SquareByWidthTextView.java
+ com.cloversoft.ks.vendor.android.java.SquareByWidthTextView
+com/cloversoft/ks/vendor/android/base/BaseActivity.java
+ com.cloversoft.ks.vendor.android.base.BaseActivity
+ com.cloversoft.ks.vendor.android.base.BaseActivity$1
+com/cloversoft/ks/vendor/android/java/StringFormatter.java
+ com.cloversoft.ks.vendor.android.java.StringFormatter
+com/cloversoft/ks/android/route/RouteActivity.java
+ com.cloversoft.ks.android.route.RouteActivity
+com/cloversoft/ks/android/activity/RewardsActivity.java
+ com.cloversoft.ks.android.activity.RewardsActivity
+com/cloversoft/ks/android/fragment/discount/DiscountFragment.java
+ com.cloversoft.ks.android.fragment.discount.DiscountFragment
+com/cloversoft/ks/vendor/android/java/realm/RealmString.java
+ com.cloversoft.ks.vendor.android.java.realm.RealmString
+com/cloversoft/ks/android/adapter/DefaultRecyclerViewAdapter.java
+ com.cloversoft.ks.android.adapter.DefaultRecyclerViewAdapter
+ com.cloversoft.ks.android.adapter.DefaultRecyclerViewAdapter$ClickListener
+ com.cloversoft.ks.android.adapter.DefaultRecyclerViewAdapter$ViewHolder
+com/cloversoft/ks/android/activity/ProfileActivity.java
+ com.cloversoft.ks.android.activity.ProfileActivity
+com/cloversoft/ks/server/request/Promotions.java
+ com.cloversoft.ks.server.request.Promotions
+ com.cloversoft.ks.server.request.Promotions$1
+ com.cloversoft.ks.server.request.Promotions$PromotionsResponse
+ com.cloversoft.ks.server.request.Promotions$RequestService
+com/cloversoft/ks/vendor/android/widget/ResizableImageView.java
+ com.cloversoft.ks.vendor.android.widget.ResizableImageView
+com/cloversoft/ks/android/fragment/promotions/PromotionsFragment.java
+ com.cloversoft.ks.android.fragment.promotions.PromotionsFragment
+com/cloversoft/ks/server/request/Game.java
+ com.cloversoft.ks.server.request.Game
+ com.cloversoft.ks.server.request.Game$1
+ com.cloversoft.ks.server.request.Game$2
+ com.cloversoft.ks.server.request.Game$3
+ com.cloversoft.ks.server.request.Game$4
+ com.cloversoft.ks.server.request.Game$5
+ com.cloversoft.ks.server.request.Game$6
+ com.cloversoft.ks.server.request.Game$7
+ com.cloversoft.ks.server.request.Game$GameBalance1Response
+ com.cloversoft.ks.server.request.Game$GameBalance2Response
+ com.cloversoft.ks.server.request.Game$GameBalance3Response
+ com.cloversoft.ks.server.request.Game$GameBalance4Response
+ com.cloversoft.ks.server.request.Game$GameBalance5Response
+ com.cloversoft.ks.server.request.Game$GameBalanceResponse
+ com.cloversoft.ks.server.request.Game$GamePlayResponse
+ com.cloversoft.ks.server.request.Game$RequestService
+com/cloversoft/ks/vendor/android/java/EndlessRecyclerViewScrollListener.java
+ com.cloversoft.ks.vendor.android.java.EndlessRecyclerViewScrollListener
+ com.cloversoft.ks.vendor.android.java.EndlessRecyclerViewScrollListener$Callback
+ com.cloversoft.ks.vendor.android.java.EndlessRecyclerViewScrollListener$HideShowListener
+com/cloversoft/ks/vendor/android/base/AndroidModel.java
+ com.cloversoft.ks.vendor.android.base.AndroidModel
+com/cloversoft/ks/android/fragment/join/JoinFragment.java
+ com.cloversoft.ks.android.fragment.join.JoinFragment
+com/cloversoft/ks/android/fragment/main/HomeFragment.java
+ com.cloversoft.ks.android.fragment.main.HomeFragment
+ com.cloversoft.ks.android.fragment.main.HomeFragment$1
+ com.cloversoft.ks.android.fragment.main.HomeFragment$2
+com/cloversoft/ks/android/activity/LandingActivity.java
+ com.cloversoft.ks.android.activity.LandingActivity
+com/cloversoft/ks/vendor/android/java/Formatter.java
+ com.cloversoft.ks.vendor.android.java.Formatter
+com/cloversoft/ks/vendor/server/util/InvalidToken.java
+ com.cloversoft.ks.vendor.server.util.InvalidToken
+com/cloversoft/ks/android/dialog/DefaultDialog.java
+ com.cloversoft.ks.android.dialog.DefaultDialog
+com/cloversoft/ks/android/fragment/settings/SettingsFragment.java
+ com.cloversoft.ks.android.fragment.settings.SettingsFragment
+com/cloversoft/ks/vendor/android/java/ImageQualityManager.java
+ com.cloversoft.ks.vendor.android.java.ImageQualityManager
+ com.cloversoft.ks.vendor.android.java.ImageQualityManager$Callback
+ com.cloversoft.ks.vendor.android.java.ImageQualityManager$CopyAsync
+com/cloversoft/ks/vendor/server/request/APIResponse.java
+ com.cloversoft.ks.vendor.server.request.APIResponse
+ com.cloversoft.ks.vendor.server.request.APIResponse$1
+com/cloversoft/ks/vendor/server/util/ErrorResponseManger.java
+ com.cloversoft.ks.vendor.server.util.ErrorResponseManger
+com/cloversoft/ks/vendor/android/base/BaseListViewAdapter.java
+ com.cloversoft.ks.vendor.android.base.BaseListViewAdapter
+ com.cloversoft.ks.vendor.android.base.BaseListViewAdapter$ViewHolder
+com/cloversoft/ks/data/preference/UserData.java
+ com.cloversoft.ks.data.preference.UserData
+com/cloversoft/ks/data/model/api/SpecificMsgModel.java
+ com.cloversoft.ks.data.model.api.SpecificMsgModel
+com/cloversoft/ks/android/activity/MessageActivity.java
+ com.cloversoft.ks.android.activity.MessageActivity
+com/cloversoft/ks/android/activity/TransactionActivity.java
+ com.cloversoft.ks.android.activity.TransactionActivity
+com/cloversoft/ks/vendor/android/java/SquareByWidthRelativeLayout.java
+ com.cloversoft.ks.vendor.android.java.SquareByWidthRelativeLayout
+com/cloversoft/ks/vendor/android/java/PermissionChecker.java
+ com.cloversoft.ks.vendor.android.java.PermissionChecker
+com/cloversoft/ks/android/fragment/SampleRecyclerViewFragment.java
+ com.cloversoft.ks.android.fragment.SampleRecyclerViewFragment
+com/cloversoft/ks/data/model/api/Spinner1Model.java
+ com.cloversoft.ks.data.model.api.Spinner1Model
+com/cloversoft/ks/data/model/api/MomentModel.java
+ com.cloversoft.ks.data.model.api.MomentModel
+com/cloversoft/ks/vendor/android/base/BaseRecylerViewAdapter.java
+ com.cloversoft.ks.vendor.android.base.BaseRecylerViewAdapter
+ com.cloversoft.ks.vendor.android.base.BaseRecylerViewAdapter$ViewHolder
+com/cloversoft/ks/data/model/api/NavDrawerModel.java
+ com.cloversoft.ks.data.model.api.NavDrawerModel
+com/cloversoft/ks/android/fragment/customer/CustomerServiceFragment.java
+ com.cloversoft.ks.android.fragment.customer.CustomerServiceFragment
+ com.cloversoft.ks.android.fragment.customer.CustomerServiceFragment$1
+ com.cloversoft.ks.android.fragment.customer.CustomerServiceFragment$2
+com/cloversoft/ks/android/fragment/profile/UpdateProfileFragment.java
+ com.cloversoft.ks.android.fragment.profile.UpdateProfileFragment
+com/cloversoft/ks/data/model/api/SampleModel.java
+ com.cloversoft.ks.data.model.api.SampleModel
+com/cloversoft/ks/data/model/db/SampleRealModel.java
+ com.cloversoft.ks.data.model.db.SampleRealModel
+com/cloversoft/ks/data/model/api/UserModel.java
+ com.cloversoft.ks.data.model.api.UserModel
+com/cloversoft/ks/vendor/android/java/RoundedRelativeLayout.java
+ com.cloversoft.ks.vendor.android.java.RoundedRelativeLayout
+com/cloversoft/ks/server/request/Auth.java
+ com.cloversoft.ks.server.request.Auth
+ com.cloversoft.ks.server.request.Auth$1
+ com.cloversoft.ks.server.request.Auth$2
+ com.cloversoft.ks.server.request.Auth$3
+ com.cloversoft.ks.server.request.Auth$HomeInfoResponse
+ com.cloversoft.ks.server.request.Auth$LoginResponse
+ com.cloversoft.ks.server.request.Auth$RegisterResponse
+ com.cloversoft.ks.server.request.Auth$RequestService
+com/cloversoft/ks/android/fragment/transaction/TransactionFragment.java
+ com.cloversoft.ks.android.fragment.transaction.TransactionFragment
+com/cloversoft/ks/vendor/android/java/ToastMessage.java
+ com.cloversoft.ks.vendor.android.java.ToastMessage
+ com.cloversoft.ks.vendor.android.java.ToastMessage$1
+ com.cloversoft.ks.vendor.android.java.ToastMessage$Status
+com/cloversoft/ks/android/adapter/HomeGameRecyclerViewAdapter.java
+ com.cloversoft.ks.android.adapter.HomeGameRecyclerViewAdapter
+ com.cloversoft.ks.android.adapter.HomeGameRecyclerViewAdapter$ClickListener
+ com.cloversoft.ks.android.adapter.HomeGameRecyclerViewAdapter$ViewHolder
+com/cloversoft/ks/vendor/server/transformer/BaseTransformer.java
+ com.cloversoft.ks.vendor.server.transformer.BaseTransformer
+com/cloversoft/ks/data/model/api/PlayGameModel.java
+ com.cloversoft.ks.data.model.api.PlayGameModel
+com/cloversoft/ks/vendor/android/java/DividerItemDecoration.java
+ com.cloversoft.ks.vendor.android.java.DividerItemDecoration
+com/cloversoft/ks/server/request/Message.java
+ com.cloversoft.ks.server.request.Message
+ com.cloversoft.ks.server.request.Message$1
+ com.cloversoft.ks.server.request.Message$2
+ com.cloversoft.ks.server.request.Message$MessageResponse
+ com.cloversoft.ks.server.request.Message$RequestService
+ com.cloversoft.ks.server.request.Message$SpecificMessageResponse
+com/cloversoft/ks/android/activity/JoinActivity.java
+ com.cloversoft.ks.android.activity.JoinActivity
+com/cloversoft/ks/android/activity/SettingsActivity.java
+ com.cloversoft.ks.android.activity.SettingsActivity
+com/cloversoft/ks/vendor/android/java/ImageManager.java
+ com.cloversoft.ks.vendor.android.java.ImageManager
+ com.cloversoft.ks.vendor.android.java.ImageManager$1
+ com.cloversoft.ks.vendor.android.java.ImageManager$2
+ com.cloversoft.ks.vendor.android.java.ImageManager$3
+ com.cloversoft.ks.vendor.android.java.ImageManager$4
+ com.cloversoft.ks.vendor.android.java.ImageManager$Callback
+com/cloversoft/ks/vendor/server/request/APIRequest.java
+ com.cloversoft.ks.vendor.server.request.APIRequest
+ com.cloversoft.ks.vendor.server.request.APIRequest$1
+ com.cloversoft.ks.vendor.server.request.APIRequest$DataResponseType
+ com.cloversoft.ks.vendor.server.request.APIRequest$OnFailedResponse
+ com.cloversoft.ks.vendor.server.request.APIRequest$Service
+com/cloversoft/ks/android/dialog/WebViewDialog.java
+ com.cloversoft.ks.android.dialog.WebViewDialog
+ com.cloversoft.ks.android.dialog.WebViewDialog$Callback
+com/cloversoft/ks/android/fragment/about/AboutFragment.java
+ com.cloversoft.ks.android.fragment.about.AboutFragment
+com/cloversoft/ks/android/fragment/SampleListViewFragment.java
+ com.cloversoft.ks.android.fragment.SampleListViewFragment
+com/cloversoft/ks/vendor/android/base/RouteManager.java
+ com.cloversoft.ks.vendor.android.base.RouteManager
+ com.cloversoft.ks.vendor.android.base.RouteManager$Route
+com/cloversoft/ks/android/activity/TransferActivity.java
+ com.cloversoft.ks.android.activity.TransferActivity
+com/cloversoft/ks/android/fragment/transfer/TransferFragment.java
+ com.cloversoft.ks.android.fragment.transfer.TransferFragment
+com/cloversoft/ks/android/adapter/MessageRecyclerViewAdapter.java
+ com.cloversoft.ks.android.adapter.MessageRecyclerViewAdapter
+ com.cloversoft.ks.android.adapter.MessageRecyclerViewAdapter$ClickListener
+ com.cloversoft.ks.android.adapter.MessageRecyclerViewAdapter$ViewHolder
+com/cloversoft/ks/android/activity/SpeedActivity.java
+ com.cloversoft.ks.android.activity.SpeedActivity
+com/cloversoft/ks/config/Keys.java
+ com.cloversoft.ks.config.Keys
+com/cloversoft/ks/android/fragment/landing/SplashFragment.java
+ com.cloversoft.ks.android.fragment.landing.SplashFragment
+com/cloversoft/ks/data/model/api/MessageModel.java
+ com.cloversoft.ks.data.model.api.MessageModel
+ com.cloversoft.ks.data.model.api.MessageModel$RecordBean
+com/cloversoft/ks/data/model/api/UserInfoModel.java
+ com.cloversoft.ks.data.model.api.UserInfoModel
+com/cloversoft/ks/vendor/server/transformer/CollectionTransformer.java
+ com.cloversoft.ks.vendor.server.transformer.CollectionTransformer
+com/cloversoft/ks/vendor/android/base/BaseApplication.java
+ com.cloversoft.ks.vendor.android.base.BaseApplication
+com/cloversoft/ks/android/fragment/feedback/FeedbackFragment.java
+ com.cloversoft.ks.android.fragment.feedback.FeedbackFragment
+com/cloversoft/ks/android/fragment/landing/LoginFragment.java
+ com.cloversoft.ks.android.fragment.landing.LoginFragment
+com/cloversoft/ks/vendor/android/java/JavaUtils.java
+ com.cloversoft.ks.vendor.android.java.JavaUtils
+com/cloversoft/ks/android/activity/FeedbackActivity.java
+ com.cloversoft.ks.android.activity.FeedbackActivity
+com/cloversoft/ks/data/model/api/PromotionModel.java
+ com.cloversoft.ks.data.model.api.PromotionModel
+com/cloversoft/ks/vendor/android/java/Keyboard.java
+ com.cloversoft.ks.vendor.android.java.Keyboard
+com/cloversoft/ks/android/activity/DiscountActivity.java
+ com.cloversoft.ks.android.activity.DiscountActivity
+com/cloversoft/ks/data/model/api/Spinner2Model.java
+ com.cloversoft.ks.data.model.api.Spinner2Model
+com/cloversoft/ks/android/activity/GameActivity.java
+ com.cloversoft.ks.android.activity.GameActivity
+com/cloversoft/ks/android/fragment/DefaultFragment.java
+ com.cloversoft.ks.android.fragment.DefaultFragment
+com/cloversoft/ks/android/fragment/message/MessageFragment.java
+ com.cloversoft.ks.android.fragment.message.MessageFragment
+ com.cloversoft.ks.android.fragment.message.MessageFragment$1
+ com.cloversoft.ks.android.fragment.message.MessageFragment$1$1
+com/cloversoft/ks/vendor/server/transformer/SingleTransformer.java
+ com.cloversoft.ks.vendor.server.transformer.SingleTransformer
+com/cloversoft/ks/android/fragment/speed/SpeedFragment.java
+ com.cloversoft.ks.android.fragment.speed.SpeedFragment
+com/cloversoft/ks/data/preference/Data.java
+ com.cloversoft.ks.data.preference.Data
+com/cloversoft/ks/vendor/android/java/ExpandableHeightListView.java
+ com.cloversoft.ks.vendor.android.java.ExpandableHeightListView
+com/cloversoft/ks/android/activity/MainActivity.java
+ com.cloversoft.ks.android.activity.MainActivity
+com/cloversoft/ks/config/App.java
+ com.cloversoft.ks.config.App
+com/cloversoft/ks/android/adapter/MessageSpecRecyclerViewAdapter.java
+ com.cloversoft.ks.android.adapter.MessageSpecRecyclerViewAdapter
+ com.cloversoft.ks.android.adapter.MessageSpecRecyclerViewAdapter$ClickListener
+ com.cloversoft.ks.android.adapter.MessageSpecRecyclerViewAdapter$ViewHolder

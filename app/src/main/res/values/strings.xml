@@ -1,0 +1,43 @@
+<resources>
+    <string name="sample_string">KS</string>
+    <string name="application_name">凯盛国际</string>
+    <string name="sponsor_lbl">赞助伙伴</string>
+    <string name="ausburg">阿根廷河床</string>
+    <string name="username">用户名(6至12位)</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="contact_us">如果您有合作意向请通过以下渠道联系我们</string>
+    <string name="qq">QQ：601469130</string>
+
+
+    <string name="about_us"><![CDATA[
+
+<p>凯盛国际是于2010年12月正式注册成立，并获得拥有菲律宾最具权威的First Cagayan博彩运营牌照。卡加延博彩管理局是国际博彩资源协会认可的亚洲首个和唯一一个交互博彩管理体系；我们致力于为会员创造安全、诚信、可靠的博彩环境，以保证能够提供世界一流的服务。
+</p>
+
+<p>凯盛国际在十周岁生日之际，成功签约阿根廷百年俱乐部河床足球队，进军体育市场。</p>
+
+<p>信息安全：</p>
+
+<p>(凯盛国际)采用了128位SSL国际标准加密技术，其安全级别已经超越国内大多数银行， 并配合专业技术人员精密设计的安全管理系统，所有客户资料都在极其安全机密的情况下处理，任何情况，(凯盛国际)都不会向任何第三方透露客户资料。</p>
+
+<p>优质服务承诺：</p>
+
+<p>自成立至今，(凯盛国际)致力提供多元化的网上游戏项目，让客户能每天24小时体验到最精采刺激的休闲享受，更藉以丰富礼金，以回馈普罗大众对我们的支持及热烈参与。我们恪守「顾客至上」的宗旨，以力求创新，不断进步的精神，开拓多元化的娱乐业务。为此，我们聘用庞大的服务团队，凭藉市场推广、软件开发、客服服务、技术支援等优秀人员的不懈努力，为客户提供专业的娱乐服务。我们承诺，置身于(凯盛国际)游戏平台的客户，参与的任何网上游戏投注，都能享有极具价值的精彩回报。同时，每名客户的资讯保密性对我们来说是最重要的。我们承诺，将继续不遗余力地坚持严格实行保密和隐私制度。(凯盛国际)衷心感谢玩家的反馈，不管是任何疑问、意见、赞扬或投诉，特设客服热线、在线客服、QQ，微信等多种联系方式，(凯盛国际)客服中心随时欢迎您的光临。</p>
+
+]]></string>
+
+    <string name="speed_txt">1.点击"safari浏览器"进入网站</string>
+    <string name="speed_txt2">2.点击底部" 分享按钮"</string>
+    <string name="speed_txt3">3.在弹窗里点击"添加到主屏幕"</string>
+    <string name="speed_txt4">4.点击"添加"</string>
+    <string name="speed_txt5">5.恭喜您安装成功</string>
+
+
+    <string-array name="wallet_array">
+        <item>中心钱包</item>
+    </string-array>
+
+</resources>
